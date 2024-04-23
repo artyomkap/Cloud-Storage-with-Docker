@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.syssoft_assignment.LoggedInController">
+   <top>
+      <AnchorPane prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: #FFA386;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="username_label" layoutX="362.0" layoutY="40.0" prefHeight="20.0" prefWidth="217.0" text="Welcome, " />
+            <Button fx:id="logout_button" layoutX="590.0" layoutY="25.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="96.0" style="-fx-background-color: transparent; -fx-border-radius: 5px; -fx-border-color: #000; -fx-border-width: 2px;" text="Sign Out" />
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

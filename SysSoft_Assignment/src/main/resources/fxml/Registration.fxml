@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller = "com.mycompany.syssoft_assignment.RegistrationController">
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #FFA386;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="100.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="44.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cloud-based Storage">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="200.0" prefWidth="350.0" style="-fx-background-color: transparent;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="user_name" layoutX="90.0" layoutY="146.0" promptText="Full Name" style="-fx-border-color: #000000; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px;" />
+            <TextField fx:id="user_email" layoutX="90.0" layoutY="208.0" promptText="Email Address" style="-fx-border-color: #000000; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px;" />
+            <PasswordField fx:id="user_password" layoutX="90.0" layoutY="263.0" promptText="Password" style="-fx-border-color: #000000; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px;" />
+            <Button fx:id="register_button" layoutX="130.0" layoutY="338.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="90.0" style="-fx-background-color: #FFA386; -fx-border-width: 0px; -fx-border-radius: 15px;" styleClass="register_button" text="Submit">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Text layoutX="84.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Registration">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="84.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Already Registered?">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            <Button fx:id="gologin_button" layoutX="224.0" layoutY="426.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="62.0" style="-fx-background-color: transparent;" text="Login">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>            
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

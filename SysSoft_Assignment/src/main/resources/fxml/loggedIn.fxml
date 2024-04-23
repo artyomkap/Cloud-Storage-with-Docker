@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.syssoft_assignment.LoggedInController">
+   <top>
+      <AnchorPane prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: #FFA386;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="username_label" layoutX="242.0" layoutY="40.0" prefHeight="20.0" prefWidth="217.0" text="Welcome, " />
+            <Button fx:id="logout_button" layoutX="590.0" layoutY="25.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="96.0" style="-fx-background-color: transparent; -fx-border-radius: 5px; -fx-border-color: #000; -fx-border-width: 2px;" text="Sign Out" />
+            <Button fx:id="edit_button" layoutX="480.0" layoutY="26.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="96.0" style="-fx-background-color: transparent; -fx-border-radius: 5px; -fx-border-color: #000; -fx-border-width: 2px;" text="Edit Profile" />
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="create_file" layoutX="51.0" layoutY="338.0" mnemonicParsing="false" text="Create" />
+            <Button fx:id="upload_file" layoutX="171.0" layoutY="338.0" mnemonicParsing="false" text="Upload" />
+            <Button fx:id="delete_file" layoutX="288.0" layoutY="338.0" mnemonicParsing="false" text="Delete" />
+            <Button fx:id="rename_file" layoutX="403.0" layoutY="338.0" mnemonicParsing="false" text="Rename" />
+            <ListView fx:id="view_files" layoutX="27.0" layoutY="25.0" prefHeight="253.0" prefWidth="646.0" />
+            <Button fx:id="update_button" layoutX="319.0" layoutY="291.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="70.0" text="Update" />
+            <Button fx:id="terminal_button" layoutX="532.0" layoutY="338.0" mnemonicParsing="false" text="Terminal" />
+         </children></AnchorPane>
+   </center>
+</BorderPane>

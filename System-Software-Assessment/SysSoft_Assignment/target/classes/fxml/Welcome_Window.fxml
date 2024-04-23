@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller = "com.mycompany.syssoft_assignment.Welcome_WindowController">
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #FFA386;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="100.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="44.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cloud-based Storage">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="200.0" prefWidth="350.0" style="-fx-background-color: transparent;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="user_email" layoutX="90.0" layoutY="149.0" promptText="Email Address" style="-fx-border-color: #000000; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px;" />
+            <PasswordField fx:id="user_password" layoutX="90.0" layoutY="225.0" promptText="Password" style="-fx-border-color: #000000; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px;" />
+            <Button fx:id="login_button" layoutX="130.0" layoutY="312.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="90.0" style="-fx-background-color: #FFA386; -fx-border-width: 0px; -fx-border-radius: 15px;" styleClass="login_button" text="Submit">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Hyperlink id="forgot_link" layoutX="96.0" layoutY="380.0" text="Forgot Your Password?" />
+            <Text layoutX="112.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Login">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="90.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not Registered?" />
+            <Button fx:id="goregister_button" layoutX="182.0" layoutY="433.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="95.0" style="-fx-background-color: transparent;" text="Register">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.syssoft_assignment.TerminalController">
+   <top>
+      <AnchorPane prefHeight="101.0" prefWidth="700.0" style="-fx-background-color: #FFA386;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="321.0" layoutY="43.0" text="Terminal" />
+            <Button fx:id="logout_button" layoutX="574.0" layoutY="25.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="96.0" style="-fx-background-color: transparent; -fx-border-radius: 5px; -fx-border-color: #000; -fx-border-width: 2px;" text="Sign Out" />
+            <Label fx:id="username_label" layoutX="405.0" layoutY="41.0" prefHeight="20.0" prefWidth="163.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="view_terminal" layoutX="24.0" layoutY="21.0" prefHeight="289.0" prefWidth="655.0" promptText="Terminal Output" />
+            <TextField fx:id="tf_terminal" layoutX="24.0" layoutY="336.0" prefHeight="25.0" prefWidth="405.0" promptText="Terminal Commands" />
+            <Button fx:id="terminal_button" layoutX="482.0" layoutY="328.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="107.0" style="-fx-background-color: #FFA386;" text="Proceed" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

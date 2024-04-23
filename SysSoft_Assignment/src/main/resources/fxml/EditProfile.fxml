@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.syssoft_assignment.EditProfileController">
+   <top>
+      <AnchorPane prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #FFA386;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="return_button" layoutX="30.0" layoutY="23.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="94.0" style="-fx-background-color: transparent; -fx-border-color: #000; -fx-border-radius: 5px; -fx-border-width: 2px;" text="Return" />
+         </children></AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="user_name" layoutX="45.0" layoutY="68.0" prefHeight="27.0" prefWidth="470.0" promptText="Full Name" style="-fx-border-color: #000000; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px;" />
+            <TextField fx:id="user_email" layoutX="45.0" layoutY="174.0" prefHeight="27.0" prefWidth="470.0" promptText="Email Address" style="-fx-border-color: #000000; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px;" />
+            <Button fx:id="update_fname" layoutX="545.0" layoutY="69.0" mnemonicParsing="false" style="-fx-background-color: #FFA386;" text="Update" />
+            <Button fx:id="update_email" layoutX="544.0" layoutY="175.0" mnemonicParsing="false" style="-fx-background-color: #FFA386;" text="Update" />
+            <Label fx:id="label_fname" layoutX="45.0" layoutY="46.0" prefHeight="26.0" prefWidth="186.0" />
+            <Label fx:id="label_email" layoutX="45.0" layoutY="110.0" prefHeight="26.0" prefWidth="186.0" />
+            <Label fx:id="label_password" layoutX="45.0" layoutY="187.0" prefHeight="26.0" prefWidth="186.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
